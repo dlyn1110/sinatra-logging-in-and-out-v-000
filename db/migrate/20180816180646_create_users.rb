@@ -5,5 +5,5 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       u.string :password
       u.decimal :balance
   end
-end
+ end
 end
